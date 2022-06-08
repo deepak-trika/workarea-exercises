@@ -30,4 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  workarea:
+    storefront:
+      products:
+        modified: This product view has been modified
