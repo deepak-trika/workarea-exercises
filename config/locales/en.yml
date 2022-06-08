@@ -33,4 +33,4 @@ en:
   workarea:
     storefront:
       products:
-        modified: This product view has been modified
+        modified: The %{product_name} view has been modified

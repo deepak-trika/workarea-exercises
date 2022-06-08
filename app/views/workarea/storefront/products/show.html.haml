@@ -31,7 +31,7 @@
       - if @product.description.present?
         .product-detail-container__description#description
           %h2.product-detail-container__description-heading= t('workarea.storefront.products.description')
-          .product-detail-container__description-body!= t('workarea.storefront.products.modified')
+          .product-detail-container__description-body!= t('workarea.storefront.products.modified', product_name: @product.name)
       = append_partials('storefront.product_description', product: @product)
 
       - if @product.recommendations.any?
