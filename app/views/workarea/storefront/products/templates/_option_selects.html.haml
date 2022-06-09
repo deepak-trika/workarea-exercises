@@ -11,7 +11,7 @@
       = render 'workarea/storefront/products/pricing', product: product
     - if product.on_sale?
       .sale-widget
-        = render 'workarea/storefront/products/sale_widget', product: product
+        = append_partials('storefront.product_sale_widget', product: product)
     = append_partials('storefront.product_pricing_details', product: product)
 
     - if product.description.present?
