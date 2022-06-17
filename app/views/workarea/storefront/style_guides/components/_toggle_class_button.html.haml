@@ -1,0 +1,13 @@
+#toggle-class-button.style-guide__subsection
+
+  %h3= link_to_style_guide('components', 'toggle_class_button')
+
+  %p toggle-class-button Description
+
+
+  .style-guide__example-block
+    .test-component
+      %p.test-component__content This component will be targeted by our JS module
+      =button_tag "Toggle Class Button", value: "toggle_class_button", class: "button", data: {module: 'toggleButton'}
+
+

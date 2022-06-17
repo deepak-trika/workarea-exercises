@@ -37,7 +37,7 @@
        * @memberof WORKAREA.revealPassword
        */
       init = function ($scope) {
-          $('input[type=password]', $scope).each(initRevealPassword);
+          // $('input[type=password]', $scope).each(initRevealPassword);
       };
 
   return {
